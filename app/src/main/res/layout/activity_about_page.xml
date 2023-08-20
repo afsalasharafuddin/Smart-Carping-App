@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="@color/background"
+    tools:context=".aboutPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="About Us"
+           android:textSize="25dp"
+           android:textAlignment="center"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:layout_marginTop="20dp"
+
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about1"
+            android:textSize="15dp"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/about2"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="15dp"
+            android:justificationMode="inter_word"
+            android:layout_marginRight="15dp"
+            android:textStyle="italic"
+
+            />
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/mainmenu"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        />
+    </androidx.drawerlayout.widget.DrawerLayout>

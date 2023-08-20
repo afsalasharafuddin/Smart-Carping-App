@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626686459741",
+    "project_id": "scps-6dcfa",
+    "storage_bucket": "scps-6dcfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626686459741:android:c8ce78986a1aa3889672b4",
+        "android_client_info": {
+          "package_name": "com.example.scps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626686459741-ahe2ajgpdnvftplrq7vk4qed1mk2p65d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-XM1z01ReYYkNr1yndz0vLqID3cn3_X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626686459741-ahe2ajgpdnvftplrq7vk4qed1mk2p65d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

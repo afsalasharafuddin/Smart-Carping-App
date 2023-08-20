@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/parking_background"
+    tools:context=".Admin_index">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/headerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_below="@+id/logo"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headerEmail"
+        android:text="Smartparkingadmin@gmail.com"
+        android:textColor="@color/white"
+        android:layout_below="@+id/headerName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

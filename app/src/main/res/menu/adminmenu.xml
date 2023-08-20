@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/nav_home"
+            android:title="Home"/>
+        <item android:id="@+id/viewuser"
+            android:icon="@drawable/baseline_preview_24"
+            android:title="View Users"/>
+        <item android:id="@+id/viewcustomer"
+            android:icon="@drawable/baseline_preview_24"
+            android:title="View Customer Details"/>
+        <item android:id="@+id/edit_user"
+            android:icon="@drawable/baseline_edit_24"
+            android:title="Edit Users"/>
+        <item android:id="@+id/addarea"
+            android:icon="@drawable/baseline_add_location_24"
+            android:title="Add Area"/>
+        <item android:id="@+id/addslot"
+            android:icon="@drawable/baseline_add_box_24"
+            android:title="Add Slot"/>
+        <item android:id="@+id/passChange"
+            android:icon="@drawable/baseline_lock_24"
+            android:title="Change Password"/>
+        <item android:id="@+id/logout"
+            android:icon="@drawable/nav_logout"
+            android:title="Logout"/>
+    </group>
+</menu>

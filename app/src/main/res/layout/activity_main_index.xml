@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/drawer_layout"
+    tools:context=".mainIndex">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Select area:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:background="#BCC6CC"
+                    android:gravity="center"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#BCC6CC"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imgLocation"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#BCC6CC"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/baseline_location_on_24" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:drawableLeft="@drawable/occupied_slot"
+                        android:text="Occupied"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/reserved_slots"/>
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Reserved"/>
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/free_slot"/>
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Free slot"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="15dp"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/s1"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                                />
+                            <ImageView
+                                android:id="@+id/s2"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                                />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 1"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="65dp"/>
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 2"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="55dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/s3"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                               />
+
+                            <ImageView
+                                android:id="@+id/s4"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                                />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 3"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="65dp"/>
+                        <TextView
+                            android:layout_width="130sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 4"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="55dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/s5"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                                />
+                            <ImageView
+                                android:id="@+id/s6"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                                />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 5"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="65dp"/>
+                        <TextView
+                            android:layout_width="130sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 6"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="55dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/s7"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                                />
+                            <ImageView
+                                android:id="@+id/s8"
+                                android:layout_width="130sp"
+                                android:layout_height="80dp"
+                                android:layout_marginRight="30sp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="30dp"
+                                />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 7"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="65dp"/>
+                        <TextView
+                            android:layout_width="130sp"
+                            android:layout_height="20dp"
+                            android:text="Slot 8"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="55dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/btnReserve"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_bg"
+                android:text="reserve my slot"
+                android:layout_marginLeft="85dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/mainmenu"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

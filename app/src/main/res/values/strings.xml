@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SCPS</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+    //Headings
+    <string name="heading_one">Smart Parking</string>
+    <string name="heading_two">Free slot available</string>
+    <string name="heading_three">Reserved ones</string>
+    <string name="heading_fourth">Currently occupied</string>
+
+    //Description
+    <string name="desc_one">The system helps in identifying and pree booking parking slots.</string>
+    <string name="desc_two">This icon will indicate that the slot is currently free and available for parking.</string>
+    <string name="desc_three">This icon will indicate that the slot is reserved and not available for booking at the moment.</string>
+    <string name="desc_fourth">This icon will indicate that the slot is currently occupied.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //About
+    <string name="about1">The ‘Smart Parking’ app is available to download for Android, and contains a raft of features designed to help direct motorists to available parking spaces, advise of car park conditions and tariffs, and utilise contactless payment.</string>
+    <string name="about2">Smart Parking app is powered by SmartCloud and Google Maps, linking the data gathered by SmartCloud from the sensors and displaying it using the familiar format of Google Maps.It is a feature-rich application that can be programmed to have as many or as few of the suite of capabilities as your site requires. At its most basic it displays directional way finding to available bays and tariff information such as parking hours and charges. You can also filter for parking bay types including disabled, limited waiting, pay and display - or anything else to suit the site or sites.A payment function can also be included where motorists can pay via their smartphone rather than worry about coins or cards for payment machines. Another bonus to paying by phone is the remote top up feature, whereby the app sends an alert that the paid parking time is running low, serving both as a reminder for motorists to get back to the car or use the remote top up feature to add more time without having to return to their car.</string>
+</resources>
